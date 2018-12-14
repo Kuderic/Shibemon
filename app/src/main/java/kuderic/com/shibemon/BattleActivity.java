@@ -372,7 +372,7 @@ public class BattleActivity extends Activity {
                                     "\n" +shiba1.getName() + " has gained 3 defence!",
                             true);
                 }
-            }, (long) (4000 * timeMultiplier));
+            }, (long) (4000 * timeMultiplier));         
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
